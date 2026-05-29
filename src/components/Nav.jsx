@@ -36,9 +36,9 @@ function Nav({ user }) {
         </div>
         <div className="nav-list">
           <Link to="/Home">Home</Link>
-          <Link to="/team">Our Team</Link>
-          <Link to="/pricing">Pricing</Link>
-          <Link to="/contact">Contact Us</Link>
+          <Link to="/Team">Our Team</Link>
+          <Link to="/Pricing">Pricing</Link>
+          <Link to="/Contact">Contact Us</Link>
           <Link to="/Login">Login/{user}</Link>
           <Link
             to="/quote"
