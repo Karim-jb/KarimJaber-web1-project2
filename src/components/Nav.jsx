@@ -41,7 +41,7 @@ function Nav({ user }) {
           <Link to="/Contact">Contact Us</Link>
           <Link to="/Login">Login/{user}</Link>
           <Link
-            to="/quote"
+            to="/"
             style={{
               marginLeft: "20px",
               backgroundColor: "red",
