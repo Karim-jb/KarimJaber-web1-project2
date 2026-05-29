@@ -14,12 +14,12 @@ function Team() {
       <main className="team-container">
         <div className="card">
           <div className="person-identification">
-            <img src="media\images\persons\person1.png" />
+            <img src="/media/images/persons/person1.png" />
             <div className="person-name">
               <h1>John Doe</h1>
               <p>CEO and founder</p>
             </div>
-            <img className="icon" src="media\images\persons\linkdln.png" />
+            <img className="icon" src="/media/images/persons/linkdln.png" />
           </div>
           <div className="description">
             <p>
@@ -28,14 +28,15 @@ function Team() {
             </p>
           </div>
         </div>
+
         <div className="card">
           <div className="person-identification">
-            <img src="media\images\persons\person2.png" />
+            <img src="/media/images/persons/person2.png" />
             <div className="person-name">
               <h1>Jane Doe</h1>
               <p>Director of opertaions</p>
             </div>
-            <img className="icon" src="media\images\persons\linkdln.png" />
+            <img className="icon" src="/media/images/persons/linkdln.png" />
           </div>
           <div className="description">
             <p>
@@ -44,14 +45,15 @@ function Team() {
             </p>
           </div>
         </div>
+
         <div className="card">
           <div className="person-identification">
-            <img src="media\images\persons\person3.png" />
+            <img src="/media/images/persons/person3.png" />
             <div className="person-name">
               <h1>Michael Brown</h1>
               <p>Senior SEO Specialist</p>
             </div>
-            <img className="icon" src="media\images\persons\linkdln.png" />
+            <img className="icon" src="/media/images/persons/linkdln.png" />
           </div>
           <div className="description">
             <p>
@@ -60,14 +62,15 @@ function Team() {
             </p>
           </div>
         </div>
+
         <div className="card">
           <div className="person-identification">
-            <img src="media\images\persons\person4.png" />
+            <img src="/media/images/persons/person4.png" />
             <div className="person-name">
               <h1>Emily Johnson</h1>
               <p>PPC Manager</p>
             </div>
-            <img className="icon" src="media\images\persons\linkdln.png" />
+            <img className="icon" src="/media/images/persons/linkdln.png" />
           </div>
           <div className="description">
             <p>
@@ -76,14 +79,15 @@ function Team() {
             </p>
           </div>
         </div>
+
         <div className="card">
           <div className="person-identification">
-            <img src="media\images\persons\person5.png" />
+            <img src="/media/images/persons/person5.png" />
             <div className="person-name">
               <h1>Brian Williams</h1>
               <p>Social Media Specialistr</p>
             </div>
-            <img className="icon" src="media\images\persons\linkdln.png" />
+            <img className="icon" src="/media/images/persons/linkdln.png" />
           </div>
           <div className="description">
             <p>
@@ -93,14 +97,15 @@ function Team() {
             </p>
           </div>
         </div>
+
         <div className="card">
           <div className="person-identification">
-            <img src="media\images\persons\person6.png" />
+            <img src="/media/images/persons/person6.png" />
             <div className="person-name">
               <h1>Sarah Kim</h1>
               <p>Content Creator</p>
             </div>
-            <img className="icon" src="media\images\persons\linkdln.png" />
+            <img className="icon" src="/media/images/persons/linkdln.png" />
           </div>
           <div className="description">
             <p>

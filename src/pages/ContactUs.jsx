@@ -29,7 +29,7 @@ function ContactUs() {
           </form>
         </div>
         <div className="image-contact-box">
-          <img src="media/images/Contact.png" alt="" />
+          <img src="/media/images/Contact.png" alt="" />
         </div>
       </main>
     </>

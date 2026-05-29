@@ -3,9 +3,9 @@ import "../styles/pricing.css";
 function Pricing() {
   return (
     <>
-      <head>
+      <header>
         <h1 className="pricing_title">Plans That Grow With Your Business:</h1>
-      </head>
+      </header>
 
       <main>
         <div className="pricing_container">
@@ -94,25 +94,25 @@ function Pricing() {
           <tr>
             <td className="column_style">Ads management</td>
             <td>
-              <img src="./media/images/icons/cross-sign.png" />
+              <img src="/media/images/icons/cross-sign.png" />
             </td>
             <td>
-              <img src="./media/images/icons/cross-sign.png" />
+              <img src="/media/images/icons/cross-sign.png" />
             </td>
             <td>
-              <img src="./media/images/icons/PricingCheck.png" />
+              <img src="/media/images/icons/PricingCheck.png" />
             </td>
           </tr>
           <tr>
             <td className="column_style">Strategy Calls</td>
             <td>
-              <img src="./media/images/icons/cross-sign.png" />
+              <img src="/media/images/icons/cross-sign.png" />
             </td>
             <td>
-              <img src="./media/images/icons/PricingCheck.png" />
+              <img src="/media/images/icons/PricingCheck.png" />
             </td>
             <td>
-              <img src="./media/images/icons/PricingCheck.png" />
+              <img src="/media/images/icons/PricingCheck.png" />
             </td>
           </tr>
         </tbody>

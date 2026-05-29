@@ -19,7 +19,7 @@ function App() {
         <Nav user={user} />
         <Routes>
           <Route path="*" element={<Home />} />
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/Team" element={<Team />} />
           <Route path="/Contact" element={<ContactUs />} />
