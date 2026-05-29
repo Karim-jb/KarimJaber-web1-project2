@@ -1,0 +1,68 @@
+.header h1{
+    text-align: center;
+    padding: 20px 30px;
+    background-color: gold;
+    color: black;
+    border-radius: 20px;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.header p{
+    text-align: center;
+    margin-bottom: 90px;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.team-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.team-container .card{
+    padding: 40px 35px;
+    background-color: rgb(244, 239, 244);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    height: 330px;
+}
+
+.team-container .card .person-identification{
+    width: 317px;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+    border-bottom: 1px solid black;
+}
+
+.team-container .card .person-identification .icon{
+    width: 30px;
+    height: 30px;
+}
+
+.team-container .card .person-identification .person-name{
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+}
+
+.team-container .card .person-identification .person-name h1{
+    font-size: 20px;
+}
+
+.team-container .card .description{
+    padding-top: 28px;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
