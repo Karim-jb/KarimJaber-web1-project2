@@ -26,11 +26,11 @@ function Nav({ user }) {
           }}
         >
           <img
-            src="media/images/icons/star.png"
+            src="/media/images/icons/star.png"
             style={{ marginRight: "10px", width: "22px" }}
           />
           <img
-            src="media/images/icons/Positivus.png"
+            src="/media/images/icons/Positivus.png"
             style={{ width: "150px" }}
           />
         </div>

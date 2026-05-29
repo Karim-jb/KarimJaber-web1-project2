@@ -21,12 +21,12 @@ function Home() {
       {/* <!-- list of companies --> */}
 
       <section className="comp-list">
-        <img src="media/images/icons/amazon (1).png" />
-        <img src="media/images/icons/Notion (1).png" />
-        <img src="media/images/icons/HubSpot.png " />
-        <img src="media/images/icons/Dribble.png" />
-        <img src="media/images/icons/zoom.png" />
-        <img src="media/images/icons/netflix.png" />
+        <img src="/media/images/icons/amazon (1).png" />
+        <img src="/media/images/icons/Notion (1).png" />
+        <img src="/media/images/icons/HubSpot.png " />
+        <img src="/media/images/icons/Dribble.png" />
+        <img src="/media/images/icons/zoom.png" />
+        <img src="/media/images/icons/netflix.png" />
       </section>
 
       {/* <!-- intro to services --> */}
