@@ -14,6 +14,9 @@ function Nav({ user }) {
     else setTheme("Light");
   }
 
+  // Vite dynamic asset resolver
+  const getAssetUrl = (path) => new URL(`/public/${path}`, import.meta.url).href;
+
   return (
     <nav style={{ position: "sticky", top: 0 }}>
       <div className="nav-container">
@@ -25,11 +28,11 @@ function Nav({ user }) {
           }}
         >
           <img
-            src="media/images/icons/star.png"
+            src={getAssetUrl("media/images/icons/star.png")}
             style={{ marginRight: "10px", width: "22px" }}
           />
           <img
-            src="media/images/icons/Positivus.png"
+            src={getAssetUrl("media/images/icons/Positivus.png")}
             style={{ width: "150px" }}
           />
         </div>
