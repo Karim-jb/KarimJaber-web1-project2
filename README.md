@@ -9,3 +9,7 @@ Navbar Changes: The navbar normally says Login / User. Once you log in, it uses 
 
 Logout Feature: If you click logout, it clears the state, removes your name, and resets the navbar back to the default Login / User
 
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
