@@ -30,7 +30,7 @@ function Footer() {
         </div>
       </div>
       <div className="end">
-        <p>© 2023 Positivus. All Rights Reserved.</p>
+        <p>© 2026 Positivus. All Rights Reserved.</p>
         <a href="#">Privacy Policy</a>
       </div>
     </footer>
