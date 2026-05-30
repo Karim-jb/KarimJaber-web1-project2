@@ -1,7 +1,6 @@
 import "../styles/team.css";
 
 function Team() {
-  // Vite dynamic asset resolver
   const getAssetUrl = (path) => new URL(`/public/${path}`, import.meta.url).href;
 
   return (

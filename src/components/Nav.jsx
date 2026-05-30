@@ -14,7 +14,6 @@ function Nav({ user }) {
     else setTheme("Light");
   }
 
-  // Vite dynamic asset resolver
   const getAssetUrl = (path) => new URL(`/public/${path}`, import.meta.url).href;
 
   return (

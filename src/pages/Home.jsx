@@ -1,7 +1,6 @@
 import "../styles/style1.css";
 
 function Home() {
-  // Vite dynamic asset resolver
   const getAssetUrl = (path) => new URL(`/public/${path}`, import.meta.url).href;
 
   return (
