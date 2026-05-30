@@ -14,17 +14,17 @@ function Home() {
           <button>Book a consultation</button>
         </div>
         <div className="w-60">
-          <img src="/media/images/Illustration.png" alt="Intro Illustration" />
+          <img src="media/images/Illustration.png" alt="Intro Illustration" />
         </div>
       </section>
 
       <section className="comp-list">
-        <img src="/media/images/icons/amazon (1).png" alt="Amazon" />
-        <img src="/media/images/icons/Notion (1).png" alt="Notion" />
-        <img src="/media/images/icons/HubSpot.png" alt="HubSpot" />
-        <img src="/media/images/icons/Dribble.png" alt="Dribble" />
-        <img src="/media/images/icons/zoom.png" alt="Zoom" />
-        <img src="/media/images/icons/netflix.png" alt="Netflix" />
+        <img src="media/images/icons/amazon (1).png" alt="Amazon" />
+        <img src="media/images/icons/Notion (1).png" alt="Notion" />
+        <img src="media/images/icons/HubSpot.png" alt="HubSpot" />
+        <img src="media/images/icons/Dribble.png" alt="Dribble" />
+        <img src="media/images/icons/zoom.png" alt="Zoom" />
+        <img src="media/images/icons/netflix.png" alt="Netflix" />
       </section>
 
       <div className="service-cont">
@@ -43,10 +43,10 @@ function Home() {
               <h2>Optimization</h2>
             </div>
             <a href="#">
-              <img src="/media/images/icons/BlackLink (1).png" alt="Link" />
+              <img src="media/images/icons/BlackLink (1).png" alt="Link" />
             </a>
           </div>
-          <img className="img" src="/media/images/Illustration (1).png" alt="SEO" />
+          <img className="img" src="media/images/Illustration (1).png" alt="SEO" />
         </div>
 
         <div className="card" style={{ backgroundColor: "rgb(200, 222, 62)" }}>
@@ -56,10 +56,10 @@ function Home() {
               <h2>Advertisig</h2>
             </div>
             <a href="#">
-              <img src="/media/images/icons/BlackLink (1).png" alt="Link" />
+              <img src="media/images/icons/BlackLink (1).png" alt="Link" />
             </a>
           </div>
-          <img className="img" src="/media/images/Illustration (2).png" alt="PPC" />
+          <img className="img" src="media/images/Illustration (2).png" alt="PPC" />
         </div>
 
         <div className="card" style={{ backgroundColor: "rgb(42, 42, 39)" }}>
@@ -69,10 +69,10 @@ function Home() {
               <h2 style={{ backgroundColor: "white" }}>Marketing</h2>
             </div>
             <a href="#">
-              <img src="/media/images/icons/WhiteLink.png" alt="Link" />
+              <img src="media/images/icons/WhiteLink.png" alt="Link" />
             </a>
           </div>
-          <img className="img" src="/media/images/Illustration (3).png" alt="Social Media" />
+          <img className="img" src="media/images/Illustration (3).png" alt="Social Media" />
         </div>
 
         <div className="card" style={{ backgroundColor: "rgb(142, 142, 63)" }}>
@@ -82,12 +82,12 @@ function Home() {
               <h2>Marketing</h2>
             </div>
             <a href="#">
-              <img src="/media/images/icons/BlackLink (1).png" alt="Link" />
+              <img src="media/images/icons/BlackLink (1).png" alt="Link" />
             </a>
           </div>
           <img
             className="img"
-            src="/media/images/tokyo-sending-messages-from-one-place-to-another 1.png"
+            src="media/images/tokyo-sending-messages-from-one-place-to-another 1.png"
             alt="Email Marketing"
           />
         </div>
@@ -99,10 +99,10 @@ function Home() {
               <h2>Creation</h2>
             </div>
             <a href="#">
-              <img src="/media/images/icons/BlackLink (1).png" alt="Link" />
+              <img src="media/images/icons/BlackLink (1).png" alt="Link" />
             </a>
           </div>
-          <img className="img" src="/media/images/Illustration (4).png" alt="Content" />
+          <img className="img" src="media/images/Illustration (4).png" alt="Content" />
         </div>
 
         <div className="card" style={{ backgroundColor: "rgb(0, 0, 0)" }}>
@@ -112,10 +112,10 @@ function Home() {
               <h2 style={{ backgroundColor: "rgb(255, 255, 255)" }}>Tracking</h2>
             </div>
             <a href="#">
-              <img src="/media/images/icons/WhiteLink.png" alt="Link" />
+              <img src="media/images/icons/WhiteLink.png" alt="Link" />
             </a>
           </div>
-          <img className="img" src="/media/images/Illustration (5).png" alt="Analytics" />
+          <img className="img" src="media/images/Illustration (5).png" alt="Analytics" />
         </div>
       </section>
 
@@ -129,7 +129,7 @@ function Home() {
           <button>Get ur free Proposal</button>
         </div>
         <img
-          src="/media/images/Illustration(proposal).png"
+          src="media/images/Illustration(proposal).png"
           style={{ width: "400px", height: "400px" }}
           alt="Proposal"
         />
@@ -151,7 +151,7 @@ function Home() {
             sales.
           </p>
           <a href="#" style={{ height: "150px", width: "150px" }}>
-            <img src="/media/images/icons/BlackLink (1).png" alt="Link" />
+            <img src="media/images/icons/BlackLink (1).png" alt="Link" />
           </a>
         </div>
 
@@ -162,7 +162,7 @@ function Home() {
             increase in organic traffic.
           </p>
           <a href="#" style={{ height: "150px", width: "150px" }}>
-            <img src="/media/images/icons/BlackLink (1).png" alt="Link" />
+            <img src="media/images/icons/BlackLink (1).png" alt="Link" />
           </a>
         </div>
 
@@ -173,7 +173,7 @@ function Home() {
             increase in online sales.
           </p>
           <a href="#" style={{ height: "150px", width: "150px" }}>
-            <img src="/media/images/icons/BlackLink (1).png" alt="Link" />
+            <img src="media/images/icons/BlackLink (1).png" alt="Link" />
           </a>
         </div>
       </section>
@@ -192,7 +192,7 @@ function Home() {
                 <h1>Consultation</h1>
               </div>
               <div>
-                <img src="/media/images/icons/Plus icon.png" alt="Plus" />
+                <img src="media/images/icons/Plus icon.png" alt="Plus" />
               </div>
             </div>
             <p style={{ paddingTop: "30px" }}>
@@ -213,7 +213,7 @@ function Home() {
               </div>
             </div>
             <div>
-              <img src="/media/images/icons/Plus icon (1).png" alt="Plus" />
+              <img src="media/images/icons/Plus icon (1).png" alt="Plus" />
             </div>
           </div>
 
@@ -227,7 +227,7 @@ function Home() {
               </div>
             </div>
             <div>
-              <img src="/media/images/icons/Plus icon (1).png" alt="Plus" />
+              <img src="media/images/icons/Plus icon (1).png" alt="Plus" />
             </div>
           </div>
 
@@ -241,7 +241,7 @@ function Home() {
               </div>
             </div>
             <div>
-              <img src="/media/images/icons/Plus icon (1).png" alt="Plus" />
+              <img src="media/images/icons/Plus icon (1).png" alt="Plus" />
             </div>
           </div>
 
@@ -255,7 +255,7 @@ function Home() {
               </div>
             </div>
             <div>
-              <img src="/media/images/icons/Plus icon (1).png" alt="Plus" />
+              <img src="media/images/icons/Plus icon (1).png" alt="Plus" />
             </div>
           </div>
 
@@ -269,7 +269,7 @@ function Home() {
               </div>
             </div>
             <div>
-              <img src="/media/images/icons/Plus icon (1).png" alt="Plus" />
+              <img src="media/images/icons/Plus icon (1).png" alt="Plus" />
             </div>
           </div>
         </div>
