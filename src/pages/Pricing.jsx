@@ -1,6 +1,9 @@
 import "../styles/pricing.css";
 
 function Pricing() {
+  // Vite dynamic asset resolver
+  const getAssetUrl = (path) => new URL(`/public/${path}`, import.meta.url).href;
+
   return (
     <>
       <header>
@@ -94,25 +97,25 @@ function Pricing() {
           <tr>
             <td className="column_style">Ads management</td>
             <td>
-              <img src="/media/images/icons/cross-sign.png" />
+              <img src={getAssetUrl("media/images/icons/cross-sign.png")} alt="Not Included" />
             </td>
             <td>
-              <img src="/media/images/icons/cross-sign.png" />
+              <img src={getAssetUrl("media/images/icons/cross-sign.png")} alt="Not Included" />
             </td>
             <td>
-              <img src="/media/images/icons/PricingCheck.png" />
+              <img src={getAssetUrl("media/images/icons/PricingCheck.png")} alt="Included" />
             </td>
           </tr>
           <tr>
             <td className="column_style">Strategy Calls</td>
             <td>
-              <img src="/media/images/icons/cross-sign.png" />
+              <img src={getAssetUrl("media/images/icons/cross-sign.png")} alt="Not Included" />
             </td>
             <td>
-              <img src="/media/images/icons/PricingCheck.png" />
+              <img src={getAssetUrl("media/images/icons/PricingCheck.png")} alt="Included" />
             </td>
             <td>
-              <img src="/media/images/icons/PricingCheck.png" />
+              <img src={getAssetUrl("media/images/icons/PricingCheck.png")} alt="Included" />
             </td>
           </tr>
         </tbody>

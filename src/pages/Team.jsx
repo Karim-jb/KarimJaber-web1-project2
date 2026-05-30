@@ -1,6 +1,9 @@
 import "../styles/team.css";
 
 function Team() {
+  // Vite dynamic asset resolver
+  const getAssetUrl = (path) => new URL(`/public/${path}`, import.meta.url).href;
+
   return (
     <>
       <header className="header">
@@ -14,12 +17,12 @@ function Team() {
       <main className="team-container">
         <div className="card">
           <div className="person-identification">
-            <img src="/media/images/persons/person1.png" />
+            <img src={getAssetUrl("media/images/persons/person1.png")} alt="John Doe" />
             <div className="person-name">
               <h1>John Doe</h1>
               <p>CEO and founder</p>
             </div>
-            <img className="icon" src="/media/images/persons/linkdln.png" />
+            <img className="icon" src={getAssetUrl("media/images/persons/linkdln.png")} alt="LinkedIn" />
           </div>
           <div className="description">
             <p>
@@ -31,12 +34,12 @@ function Team() {
 
         <div className="card">
           <div className="person-identification">
-            <img src="/media/images/persons/person2.png" />
+            <img src={getAssetUrl("media/images/persons/person2.png")} alt="Jane Doe" />
             <div className="person-name">
               <h1>Jane Doe</h1>
               <p>Director of opertaions</p>
             </div>
-            <img className="icon" src="/media/images/persons/linkdln.png" />
+            <img className="icon" src={getAssetUrl("media/images/persons/linkdln.png")} alt="LinkedIn" />
           </div>
           <div className="description">
             <p>
@@ -48,12 +51,12 @@ function Team() {
 
         <div className="card">
           <div className="person-identification">
-            <img src="/media/images/persons/person3.png" />
+            <img src={getAssetUrl("media/images/persons/person3.png")} alt="Michael Brown" />
             <div className="person-name">
               <h1>Michael Brown</h1>
               <p>Senior SEO Specialist</p>
             </div>
-            <img className="icon" src="/media/images/persons/linkdln.png" />
+            <img className="icon" src={getAssetUrl("media/images/persons/linkdln.png")} alt="LinkedIn" />
           </div>
           <div className="description">
             <p>
@@ -65,12 +68,12 @@ function Team() {
 
         <div className="card">
           <div className="person-identification">
-            <img src="/media/images/persons/person4.png" />
+            <img src={getAssetUrl("media/images/persons/person4.png")} alt="Emily Johnson" />
             <div className="person-name">
               <h1>Emily Johnson</h1>
               <p>PPC Manager</p>
             </div>
-            <img className="icon" src="/media/images/persons/linkdln.png" />
+            <img className="icon" src={getAssetUrl("media/images/persons/linkdln.png")} alt="LinkedIn" />
           </div>
           <div className="description">
             <p>
@@ -82,12 +85,12 @@ function Team() {
 
         <div className="card">
           <div className="person-identification">
-            <img src="/media/images/persons/person5.png" />
+            <img src={getAssetUrl("media/images/persons/person5.png")} alt="Brian Williams" />
             <div className="person-name">
               <h1>Brian Williams</h1>
               <p>Social Media Specialistr</p>
             </div>
-            <img className="icon" src="/media/images/persons/linkdln.png" />
+            <img className="icon" src={getAssetUrl("media/images/persons/linkdln.png")} alt="LinkedIn" />
           </div>
           <div className="description">
             <p>
@@ -100,12 +103,12 @@ function Team() {
 
         <div className="card">
           <div className="person-identification">
-            <img src="/media/images/persons/person6.png" />
+            <img src={getAssetUrl("media/images/persons/person6.png")} alt="Sarah Kim" />
             <div className="person-name">
               <h1>Sarah Kim</h1>
               <p>Content Creator</p>
             </div>
-            <img className="icon" src="/media/images/persons/linkdln.png" />
+            <img className="icon" src={getAssetUrl("media/images/persons/linkdln.png")} alt="LinkedIn" />
           </div>
           <div className="description">
             <p>
